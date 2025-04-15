@@ -1,5 +1,5 @@
-ARG NOMINATIM_VERSION=5.1.0
-ARG USER_AGENT=juliocamiloalves/nominatim-docker:${NOMINATIM_VERSION}
+ARG NOMINATIM_VERSION=jca
+ARG USER_AGENT=juliocamiloalves/nom:${NOMINATIM_VERSION}
 
 FROM ubuntu:24.04 AS build
 
